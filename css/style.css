@@ -14,7 +14,6 @@ h1 strong {
   font-weight: 900;
 }
 h2 {
-  line-height: 20px;
   margin: 0;
   color: #444;
   font-weight: 400;
@@ -632,9 +631,12 @@ label {
   }
 }
 
-@media (max-width: 1024px) {
+@media only screen and (max-width: 500px) {
+  #portfolio img {
+    margin: auto;
+  }
+
   #about img {
     float: left;
-    margin-bottom: 20px;
   }
 }
